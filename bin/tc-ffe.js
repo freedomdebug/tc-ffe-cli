@@ -164,7 +164,7 @@ new Promise(function (resolve, reject) {
       hint.print('green', `🎉  欢迎使用tc-ffe,请继续完成以下操作:`, 'bottom')
       hint.print('cyan', ` $ cd ${answers_all.name}`)
       hint.print('cyan', ` $ npm run dev`, 'bottom')
-      hint.print('green', ` [使用手册] https://freedomdebug.github.io/`)
+      hint.print('green', ` [使用手册] https://github.com/freedomdebug/tc-ffe-cli`)
       process.exit()
     }, 500)
   })
